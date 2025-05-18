@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_infos",
+  "info": {
+    "singularName": "company-info",
+    "pluralName": "company-infos",
+    "displayName": "company-info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    },
+    "facebookId": {
+      "type": "string"
+    },
+    "instagramId": {
+      "type": "string"
+    },
+    "linkedinId": {
+      "type": "string"
+    },
+    "twitterId": {
+      "type": "string"
+    },
+    "dribbbledId": {
+      "type": "string"
+    },
+    "CIN": {
+      "type": "string"
+    },
+    "projects_completed": {
+      "type": "biginteger"
+    },
+    "happy_customers": {
+      "type": "biginteger"
+    },
+    "years_experience": {
+      "type": "biginteger"
+    },
+    "awards_achievement": {
+      "type": "biginteger"
+    }
+  }
+}

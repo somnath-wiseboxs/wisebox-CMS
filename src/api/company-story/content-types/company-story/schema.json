@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_stories",
+  "info": {
+    "singularName": "company-story",
+    "pluralName": "company-stories",
+    "displayName": "Company_story"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "more_info": {
+      "type": "text"
+    }
+  }
+}

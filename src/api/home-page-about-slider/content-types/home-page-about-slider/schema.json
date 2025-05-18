@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_about_sliders",
+  "info": {
+    "singularName": "home-page-about-slider",
+    "pluralName": "home-page-about-sliders",
+    "displayName": "Home_page_about_slider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sub_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "des": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

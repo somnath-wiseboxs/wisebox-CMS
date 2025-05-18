@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "award_winning_works",
+  "info": {
+    "singularName": "award-winning-work",
+    "pluralName": "award-winning-works",
+    "displayName": "Award_winning-work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "brand": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ward_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
